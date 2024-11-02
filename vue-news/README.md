@@ -19,3 +19,13 @@ npm run build
 ```
 npm run lint
 ```
+
+### 해커뉴스 api
+```
+https://github.com/tastejs/hacker-news-pwas/blob/master/docs/api.md
+```
+
+### Reactivity in Depth
+```
+https://vuejs.org/guide/extras/reactivity-in-depth.html#ad
+```
