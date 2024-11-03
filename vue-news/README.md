@@ -19,3 +19,8 @@ npm run build
 ```
 npm run lint
 ```
+
+### high order component
+```
+https://legacy.reactjs.org/docs/higher-order-components.html
+```
