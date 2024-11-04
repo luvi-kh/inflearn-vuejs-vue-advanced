@@ -24,3 +24,18 @@ npm run lint
 ```
 https://legacy.reactjs.org/docs/higher-order-components.html
 ```
+
+### 네비게이션 가드
+```
+routes / index.js 
+
+beforeEnter
+
+beforeEnter(routeTo, routeFrom, next) {
+        bus.$emit('on:progress');
+        const itemId = routeTo.params.id;
+        store.dispatch('FETCH_ITEM', itemId)
+          .then(() => next())
+          .catch(err => new Error('failed to fetch item details', err));
+      },
+```
