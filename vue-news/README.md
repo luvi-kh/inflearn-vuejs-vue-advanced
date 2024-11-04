@@ -39,3 +39,11 @@ beforeEnter(routeTo, routeFrom, next) {
           .catch(err => new Error('failed to fetch item details', err));
       },
 ```
+
+### bus.$emit('off:progress'); 위치
+### views / CreateListView.js 에서 하면 보다 깔끔함
+```
+mounted() {
+      bus.$emit('off:progress');
+    },
+```
