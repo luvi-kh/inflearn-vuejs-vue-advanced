@@ -47,3 +47,9 @@ mounted() {
       bus.$emit('off:progress');
     },
 ```
+
+### Chart.js
+
+```
+https://www.chartjs.org/docs/latest/
+```
